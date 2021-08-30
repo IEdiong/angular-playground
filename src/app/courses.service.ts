@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class CoursesService {
   getCourses() {
-    return ['Discipleship', 'Giving', 'Tithing', 'Marriage'];
+    return ['Discipleship', 'Giving', 'Marriage', 'Ministry', 'Humility'];
   }
 
   constructor() {}
