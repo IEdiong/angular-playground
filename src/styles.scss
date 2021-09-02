@@ -1,7 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+
+  code,
+  .code-snippet {
+    color: palevioletred;
+  }
 }
-code {
-  color: palevioletred;
+
+.container {
+  width: 85%;
+  max-width: 1165px;
+  margin: 0 auto;
 }
